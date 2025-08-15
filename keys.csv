@@ -1,0 +1,5 @@
+alias,fpr,deriv,xpub,internal
+alice,f23a1b7c,86'/0'/0',xpub6C...,true
+bob,  a1b2c3d4,86'/0'/0',xpub6D...,false
+carol,9fedcba0,86'/0'/0',xpub6E...,false
+dave, 0badc0de,86'/0'/0',xpub6F...,false

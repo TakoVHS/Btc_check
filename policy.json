@@ -1,0 +1,7 @@
+{
+  "andor": {
+    "a": {"older": 144},                 # если прошёл timelock 144 блоков
+    "b": {"pk": "alice"},                # тогда нужна подпись alice
+    "c": {"thresh": {"k": 2, "keys": ["bob","carol","dave"]}}
+  }
+}
