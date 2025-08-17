@@ -1,0 +1,39 @@
+{
+  "description": "Тестовая конфигурация для testnet - безопасное тестирование",
+  "jobs": [
+    {
+      "type": "gen",
+      "name": "testnet_segwit_basic",
+      "wallet": "test_wallet_segwit",
+      "network": "testnet",
+      "witness": "segwit",
+      "accounts": [0, 1],
+      "start": 0,
+      "count": 20,
+      "out_dir": "./test_exports",
+      "format": "csv,jsonl"
+    },
+    {
+      "type": "gen",
+      "name": "testnet_legacy", 
+      "wallet": "test_wallet_legacy",
+      "network": "testnet",
+      "witness": "legacy",
+      "accounts": [0],
+      "start": 0,
+      "count": 10,
+      "out_dir": "./test_exports"
+    },
+    {
+      "type": "gen",
+      "name": "testnet_taproot",
+      "wallet": "test_wallet_tr",
+      "network": "testnet",
+      "witness": "tr",
+      "accounts": [0],
+      "start": 0,
+      "count": 15,
+      "out_dir": "./test_exports"
+    }
+  ]
+}
